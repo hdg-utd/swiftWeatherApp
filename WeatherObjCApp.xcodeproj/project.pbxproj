@@ -13,6 +13,8 @@
 		0722C9BE1DCAAAC600E54F2C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0722C9BC1DCAAAC600E54F2C /* Main.storyboard */; };
 		0722C9C01DCAAAC600E54F2C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0722C9BF1DCAAAC600E54F2C /* Assets.xcassets */; };
 		0722C9C31DCAAAC600E54F2C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0722C9C11DCAAAC600E54F2C /* LaunchScreen.storyboard */; };
+		0722C9D31DCB8D3500E54F2C /* Weather.m in Sources */ = {isa = PBXBuildFile; fileRef = 0722C9D21DCB8D3500E54F2C /* Weather.m */; };
+		0722C9D61DCB8E3F00E54F2C /* WeatherService.m in Sources */ = {isa = PBXBuildFile; fileRef = 0722C9D51DCB8E3F00E54F2C /* WeatherService.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		0722C9BF1DCAAAC600E54F2C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0722C9C21DCAAAC600E54F2C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0722C9C41DCAAAC600E54F2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0722C9D11DCB8D3500E54F2C /* Weather.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Weather.h; sourceTree = "<group>"; };
+		0722C9D21DCB8D3500E54F2C /* Weather.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Weather.m; sourceTree = "<group>"; };
+		0722C9D41DCB8E3F00E54F2C /* WeatherService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WeatherService.h; path = ../WeatherService.h; sourceTree = "<group>"; };
+		0722C9D51DCB8E3F00E54F2C /* WeatherService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WeatherService.m; path = ../WeatherService.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +68,10 @@
 				0722C9B71DCAAAC600E54F2C /* AppDelegate.m */,
 				0722C9B91DCAAAC600E54F2C /* ViewController.h */,
 				0722C9BA1DCAAAC600E54F2C /* ViewController.m */,
+				0722C9D41DCB8E3F00E54F2C /* WeatherService.h */,
+				0722C9D51DCB8E3F00E54F2C /* WeatherService.m */,
+				0722C9D11DCB8D3500E54F2C /* Weather.h */,
+				0722C9D21DCB8D3500E54F2C /* Weather.m */,
 				0722C9BC1DCAAAC600E54F2C /* Main.storyboard */,
 				0722C9BF1DCAAAC600E54F2C /* Assets.xcassets */,
 				0722C9C11DCAAAC600E54F2C /* LaunchScreen.storyboard */,
@@ -151,6 +161,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0722C9D61DCB8E3F00E54F2C /* WeatherService.m in Sources */,
+				0722C9D31DCB8D3500E54F2C /* Weather.m in Sources */,
 				0722C9BB1DCAAAC600E54F2C /* ViewController.m in Sources */,
 				0722C9B81DCAAAC600E54F2C /* AppDelegate.m in Sources */,
 				0722C9B51DCAAAC600E54F2C /* main.m in Sources */,
@@ -310,6 +322,7 @@
 				0722C9C91DCAAAC600E54F2C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

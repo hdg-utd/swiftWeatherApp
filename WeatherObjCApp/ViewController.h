@@ -7,8 +7,19 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "WeatherService.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController<WeatherServiceDelegate>
+
+
+@property (weak, nonatomic) IBOutlet UILabel *tempLabel;
+@property (weak, nonatomic) IBOutlet UILabel *descLabel;
+@property (weak, nonatomic) IBOutlet UIButton *cityButton;
+
+@property (nonatomic) WeatherService *weatherService;
+
+- (void)openCityAlert;
+
 
 
 @end
